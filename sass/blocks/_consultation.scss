@@ -1,0 +1,48 @@
+.consultation{
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../../img/shoerun_bg.jpg) center (center/cover) no-repeat;
+    &__descr {
+        margin-top: 80px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error{
+        color: #fff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 767px){
+    .consultation {        
+        padding: 80px 0 72px 0;
+    }    
+}
+@media ( max-width: 575px ){
+    .consultation {  
+        min-height: 460px;      
+        padding: 50px 5px 42px ;
+        &__descr {
+            margin-top: 36px;
+            text-align: center;
+            font-size: 19px;
+        }   
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+            align-items: center;
+            input {
+                width: 100%;
+            }
+        }
+        .error {
+            font-size: 13px;
+        } 
+    }    
+}
